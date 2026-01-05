@@ -1,0 +1,94 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: "Mateus Navarro"
+  headline: "Desenvolvedor"
+  location: "Fortaleza, CE"
+  email: "mateusnavarro9@gmail.com"
+  phone: "+55 85 98922-5633"
+  social_networks:
+    - network: "GitHub"
+      username: ""
+  sections:
+    perfil_profissional:
+      - "Desenvolvedor de software com foco em desenvolvimento mobile utilizando Flutter e Dart. Experiência na criação de interfaces de usuário, desenvolvimento de componentes reutilizáveis, integração com APIs RESTful e gerenciamento de estado com BLoC e Cubit. Atuação em ambiente corporativo, colaborando com equipes multidisciplinares e utilizando ferramentas de CI/CD para automação de testes, build e deploy. Experiência adicional em blockchain, com desenvolvimento de smart contracts em Solidity, utilização da biblioteca OpenZeppelin, implementação de padrões ERC20, ERC721 e ERC1155 e realização de testes unitários e de integração com Hardhat e Truffle."
+
+    experiência:
+      - company: "2nd Market"
+        position: "Desenvolvedor Web Blockchain"
+        start_date: "2022-08"
+        end_date: "2023-08"
+        highlights:
+          - "Atuação no desenvolvimento na área de blockchain, criando soluções em smart contracts para empresas."
+          - "Utilização de bibliotecas profissionais de smart contracts, como a OpenZeppelin."
+          - "Realização de testes unitários e de integração dos smart contracts, garantindo a qualidade do código desenvolvido."
+          - "Utilização de frameworks e bibliotecas como Hardhat e Truffle."
+          - "Realizei deploys de smart contracts em redes de teste (Fantom testnet,Sepolia) e em redes principais (Polygon)"
+      - company: "Banco do Nordeste"
+        position: "Bolsista de Desenvolvimento de Software (Flutter)"
+        start_date: "2024-11"
+        end_date: "present"
+        location: "Fortaleza, CE"
+        highlights:
+          - "Implementei em código (Dart/Flutter) componentes de interface do usuário projetados no Figma para a construção de uma biblioteca de componentes reutilizáveis em Flutter. Esses componentes foram integrados em diversos projetos internos do banco, melhorando a consistência visual e a eficiência no desenvolvimento."
+          - "Colaborei com equipes multifuncionais, incluindo designers e desenvolvedores, para garantir que os componentes atendessem aos requisitos de usabilidade, desempenho e acessibilidade."
+          - "Utilizei a ferramenta de CI/CD Jenkins para automatizar o processo de teste,build e deploy de Provas de Conceito (PoCs) desenvolvidas em Flutter, garantindo entregas mais rápidas e confiáveis."
+          - "Realizei manutenção e atualizções em uma plataforma interna de documentação que utilizava Docussaurus, assegurando que a documentação técnica estivesse sempre atualizada e acessível para os desenvolvedores."
+    formação_acadêmica:
+      - institution: "Universidade de Fortaleza (UNIFOR)"
+        area: "Engenharia de Computação"
+        degree: "Graduando"
+        start_date: "2022"
+        end_date: "present"
+        highlights:
+          - "Atualmente no 7º semestre do curso."
+          - "Conclusão das disciplinas de Estrutura de Dados com Java, Programação Orientada a Objetos com Java e Algoritmos."
+    habilidades:
+      - label: "Linguagens em geral"
+        details: "Dart, Solidity, JavaScript, TypeScript e Java"
+      - label: "Blockchain e Smart Contracts"
+        details: "Padrões (ERC20, ERC721, ERC1155), OpenZeppelin, Hardhat, Truffle, Polygon, Ethereum"
+      - label: "Desenvolvimento mobile (Flutter)"
+        details: "Gerenciamento de estado com o padrão BLoC/Cubit, integração com APIs RESTful, armazenamento local com SQLite e Shared Preferences"
+      - label: "Ferramentas"
+        details: "Git, Gitlab, Github, Jenkins, Figma, IBM RTC, Docussaurus"
+    idiomas:
+      - label: "Português"
+        details: "Nativo"
+      - label: "Inglês"
+        details: "Avançado"
+
+design:
+  theme: "classic"
+  page:
+    size: "us-letter"
+    top_margin: "2cm"
+    bottom_margin: "2cm"
+    left_margin: "2cm"
+    right_margin: "2cm"
+  typography:
+    font_family: "Source Sans 3"
+    font_size:
+      body: "10pt"
+      name: "30pt"
+    alignment: "justified"
+  header:
+    alignment: "center"
+    connections:
+      show_icons: true
+  section_titles:
+    type: "with_partial_line"
+
+locale:
+  language: "english"
+
+settings:
+  bold_keywords:
+    - "Dart"
+    - "Flutter"
+    - "Solidity"
+    - "Blockchain"
+    - "Smart Contracts"
+    - "Java"
+    - "React"
+  render_command:
+    pdf_path: "rendercv_output/Mateus_Navarro_CV.pdf"
