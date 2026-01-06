@@ -1,4 +1,4 @@
-name: "Build curriculum PDF"
+name: "Build and release Curriculum"
 
 on:
   push:
@@ -8,11 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Render CV
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
@@ -28,3 +30,12 @@ jobs:
         with:
           name: Mateus_Navarro_CV_PT.pdf
           path: rendercv_output/Mateus_Navarro_CV_PT.pdf
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: latest
+          name: Latest CV
+          files: rendercv_output/Mateus_Navarro_CV_PT.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
