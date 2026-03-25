@@ -10,7 +10,16 @@ cv:
       username: "MateusNavarro77"
   sections:
     perfil_profissional:
-      - "Desenvolvedor de software com foco em desenvolvimento mobile utilizando Flutter e Dart. Experiência na criação de interfaces de usuário, desenvolvimento de componentes reutilizáveis, integração com APIs RESTful e gerenciamento de estado com BLoC e Cubit. Atuação em ambiente corporativo, colaborando com equipes multidisciplinares e utilizando ferramentas de CI/CD para automação de testes, build e deploy. Experiência adicional em blockchain, com desenvolvimento de smart contracts em Solidity, utilização da biblioteca OpenZeppelin, implementação de padrões ERC20, ERC721 e ERC1155 e realização de testes unitários e de integração com Hardhat e Truffle."
+      - "Desenvolvedor de software com foco em desenvolvimento mobile utilizando
+        Flutter e Dart. Experiência na criação de interfaces de usuário,
+        desenvolvimento de componentes reutilizáveis, integração com APIs
+        RESTful e gerenciamento de estado com BLoC e Cubit. Atuação em ambiente
+        corporativo, colaborando com equipes multidisciplinares e utilizando
+        ferramentas de CI/CD para automação de testes, build e deploy.
+        Experiência adicional em blockchain, com desenvolvimento de smart
+        contracts em Solidity, utilização da biblioteca OpenZeppelin,
+        implementação de padrões ERC20, ERC721 e ERC1155 e realização de testes
+        unitários e de integração com Hardhat e Truffle."
     experiência:
       - company: "Banco do Nordeste"
         position: "Bolsista de Desenvolvimento de Software (Flutter)"
@@ -18,20 +27,35 @@ cv:
         start_date: "2024-11"
         end_date: "present"
         highlights:
-          - "Implementei em código (Dart/Flutter) componentes de interface do usuário projetados no Figma para a construção de uma biblioteca de componentes reutilizáveis em Flutter. Esses componentes foram integrados em diversos projetos internos do banco, melhorando a consistência visual e a eficiência no desenvolvimento."
-          - "Colaborei com equipes multifuncionais, incluindo designers e desenvolvedores, para garantir que os componentes atendessem aos requisitos de usabilidade, desempenho e acessibilidade."
-          - "Utilizei a ferramenta de CI/CD Jenkins para automatizar o processo de teste, build e deploy de Provas de Conceito (PoCs) desenvolvidas em Flutter, garantindo entregas mais rápidas e confiáveis."
-          - "Realizei manutenção e atualizações em uma plataforma interna de documentação que utilizava Docussaurus, assegurando que a documentação técnica estivesse sempre atualizada e acessível para os desenvolvedores."
+          - "Implementei em código (Dart/Flutter) componentes de interface do
+            usuário projetados no Figma para a construção de uma biblioteca de
+            componentes reutilizáveis em Flutter. Esses componentes foram
+            integrados em diversos projetos internos do banco, melhorando a
+            consistência visual e a eficiência no desenvolvimento."
+          - "Colaborei com equipes multifuncionais, incluindo designers e
+            desenvolvedores, para garantir que os componentes atendessem aos
+            requisitos de usabilidade, desempenho e acessibilidade."
+          - "Utilizei a ferramenta de CI/CD Jenkins para automatizar o processo
+            de teste, build e deploy de Provas de Conceito (PoCs) desenvolvidas
+            em Flutter, garantindo entregas mais rápidas e confiáveis."
+          - "Realizei manutenção e atualizações em uma plataforma interna de
+            documentação que utilizava Docussaurus, assegurando que a
+            documentação técnica estivesse sempre atualizada e acessível para os
+            desenvolvedores."
       - company: "2nd Market"
         position: "Desenvolvedor Web Blockchain"
         start_date: "2022-08"
         end_date: "2024-05"
         highlights:
-          - "Atuação no desenvolvimento na área de blockchain, criando soluções em smart contracts para empresas."
-          - "Utilização de bibliotecas profissionais de smart contracts, como a OpenZeppelin."
-          - "Realização de testes unitários e de integração dos smart contracts, garantindo a qualidade do código desenvolvido."
+          - "Atuação no desenvolvimento na área de blockchain, criando soluções
+            em smart contracts para empresas."
+          - "Utilização de bibliotecas profissionais de smart contracts, como a
+            OpenZeppelin."
+          - "Realização de testes unitários e de integração dos smart contracts,
+            garantindo a qualidade do código desenvolvido."
           - "Utilização de frameworks e bibliotecas como Hardhat e Truffle."
-          - "Realizei deploys de smart contracts em redes de teste (Fantom testnet, Sepolia) e em redes principais (Polygon)."
+          - "Realizei deploys de smart contracts em redes de teste (Fantom
+            testnet, Sepolia) e em redes principais (Polygon)."
     formação_acadêmica:
       - institution: "Universidade de Fortaleza (UNIFOR)"
         area: "Engenharia de Computação"
@@ -40,14 +64,17 @@ cv:
         end_date: "present"
         highlights:
           - "Atualmente no 7º semestre do curso."
-          - "Conclusão das disciplinas de Estrutura de Dados com Java, Programação Orientada a Objetos com Java e Algoritmos."
+          - "Conclusão das disciplinas de Estrutura de Dados com Java,
+            Programação Orientada a Objetos com Java e Algoritmos."
     habilidades:
       - label: "Linguagens em geral"
         details: "Dart, Solidity, JavaScript, TypeScript e Java"
       - label: "Blockchain e Smart Contracts"
-        details: "Padrões (ERC20, ERC721, ERC1155), OpenZeppelin, Hardhat, Truffle, Polygon, Ethereum"
+        details: "Padrões (ERC20, ERC721, ERC1155), OpenZeppelin, Hardhat, Truffle,
+          Polygon, Ethereum"
       - label: "Desenvolvimento mobile (Flutter)"
-        details: "Gerenciamento de estado com o padrão BLoC/Cubit, integração com APIs RESTful, armazenamento local com SQLite e Shared Preferences"
+        details: "Gerenciamento de estado com o padrão BLoC/Cubit, integração com APIs
+          RESTful, armazenamento local com SQLite e Shared Preferences"
       - label: "Ferramentas"
         details: "Git, Gitlab, Github, Jenkins, Figma, IBM RTC, Docussaurus"
     idiomas:
