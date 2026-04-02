@@ -39,7 +39,7 @@ cv:
             de teste, build e deploy de Provas de Conceito (PoCs) desenvolvidas
             em Flutter, garantindo entregas mais rápidas e confiáveis."
           - "Realizei manutenção e atualizações em uma plataforma interna de
-            documentação que utilizava Docussaurus, assegurando que a
+            documentação que utilizava Docusaurus, assegurando que a
             documentação técnica estivesse sempre atualizada e acessível para os
             desenvolvedores."
       - company: "2nd Market"
@@ -76,7 +76,7 @@ cv:
         details: "Gerenciamento de estado com o padrão BLoC/Cubit, integração com APIs
           RESTful, armazenamento local com SQLite e Shared Preferences"
       - label: "Ferramentas"
-        details: "Git, Gitlab, Github, Jenkins, Figma, IBM RTC, Docussaurus"
+        details: "Git, Gitlab, Github, Jenkins, Figma, IBM RTC, Docusaurus"
     idiomas:
       - label: "Português"
         details: "Nativo"
