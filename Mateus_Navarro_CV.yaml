@@ -29,11 +29,9 @@ cv:
         highlights:
           - "Participei da refatoração de um aplicativo legado em Flutter para adequação aos padrões de arquitetura corporativos. Atuei na implementação de uma arquitetura em camadas orientada a contratos (interfaces), utilizando BLoC/Cubit para gerenciamento de estado e GetIt (Service Locator) para injeção de dependências, reduzindo o acoplamento entre os módulos e facilitando a manutenção, escalabilidade e testabilidade da aplicação. Também trabalhei com funcionalidades que se integram ao GPS do dispositivo e visualização de mapas nativos por meio do Google Maps (Android) e Apple Maps (iOS)."
           
-          - "Implementei em código (Dart/Flutter) componentes de interface do
-            usuário projetados no Figma para a construção de uma biblioteca de
-            componentes reutilizáveis em Flutter. Esses componentes fazem parte de um design system corporativo e foram
-            integrados em diversos projetos internos do banco, melhorando a
-            consistência visual e a eficiência no desenvolvimento."
+          - "Implementei em Dart/Flutter componentes de interface a partir de especificações do Figma para compor um Design System corporativo. Os componentes desenvolvidos foram integrados a diversos projetos internos do banco, promovendo consistência visual e maior reutilização de código."
+
+          - "Desenvolvi testes unitários, widget tests e golden tests para os componentes do Design System, garantindo o comportamento esperado, a estabilidade visual e a qualidade da biblioteca."
           
           - "Colaborei com equipes multifuncionais, incluindo designers e
             desenvolvedores, para garantir que os componentes atendessem aos
@@ -45,7 +43,7 @@ cv:
             documentação que utilizava Docusaurus, assegurando que a
             documentação técnica estivesse sempre atualizada e acessível para os
             desenvolvedores."
-            
+
           - "Colaborei na integração de um chatbot com IA baseado em RAG a um portal interno de documentação utilizando a ferramenta open source Chainlit. A solução utilizava o Azure AI Search para recuperação semântica de informações, tendo como fonte de conhecimento os arquivos Markdown do portal de documentação desenvolvido com Docusaurus."
 
           - "Atuei na containerização da aplicação com Docker, na configuração do ambiente de desenvolvimento com Docker Compose e na utilização do Nginx como proxy reverso, preservando o IP de origem das requisições para possibilitar a aplicação de rate limiting."
