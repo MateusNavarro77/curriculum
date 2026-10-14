@@ -62,6 +62,12 @@ cv:
           - "Utilização de frameworks e bibliotecas como Hardhat e Truffle."
           - "Realizei deploys de smart contracts em redes de teste (Fantom
             testnet, Sepolia) e em redes principais (Polygon)."
+    projetos_e_contribuições_open_source:
+      - name: "[Bloc Library (felangel/bloc)](https://github.com/felangel/bloc)"
+        date: "2026-06"
+        location: "Open Source"
+        highlights:
+          - "Contribuição para o repositório oficial da biblioteca Bloc (o ecossistema de gerenciamento de estado mais popular do Flutter) através do [Pull Request #4821](https://github.com/felangel/bloc/pull/4821), traduzindo guias de testes, documentação de migração e FAQs para o português brasileiro e expandindo a acessibilidade e as melhores práticas de arquitetura para desenvolvedores de língua portuguesa."
     formação_acadêmica:
       - institution: "Universidade de Fortaleza (UNIFOR)"
         area: "Engenharia de Computação"
