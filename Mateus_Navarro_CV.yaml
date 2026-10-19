@@ -67,7 +67,7 @@ cv:
         date: "2026-10"
         location: "Open Source"
         highlights:
-          - "Identifiquei e reportei uma inconsistência visual no app mobile do Immich na [Issue #32476](https://github.com/immich-app/immich/issues/32476), criei o [Pull Request #32503](https://github.com/immich-app/immich/pull/32503) com a correção e contribui para uma experiência mais consistente na navegação da Library page."
+          - "Identifiquei e reportei uma inconsistência visual no app mobile do Immich na [Issue #32476](https://github.com/immich-app/immich/issues/32476), criei o [Pull Request #32503](https://github.com/immich-app/immich/pull/32503) com a correção e contribui para uma experiência mais consistente no aplicativo."
       - name: "[Bloc Library (felangel/bloc)](https://github.com/felangel/bloc)"
         date: "2026-06"
         location: "Open Source"
